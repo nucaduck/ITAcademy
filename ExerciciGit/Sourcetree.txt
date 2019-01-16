@@ -1,2 +1,13 @@
-Sourcetree is magic. Using the client instead of the command line makes it really easy for me to jump between branches and stay on top of what is happening with the codebase
+Sourcetree is magic. Using the client instead of the command line makes it really easy for me to jump between branches and stay on top of what is happening with the codebase.
+
+Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree's simple Git GUI.
+
+
+Simple for beginners
+
+Say goodbye to the command line - simplify distributed version control with a Git client and quickly bring everyone up to speed.
+Powerful for experts
+
+Perfect for making advanced users even more productive. Review changesets, stash, cherry-pick between branches and more.
+
 
