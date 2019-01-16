@@ -3,3 +3,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Introducir texto desde branch1  
 
 Non texte
+
+Texte desde Master
