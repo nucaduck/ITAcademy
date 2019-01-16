@@ -11,3 +11,7 @@ Powerful for experts
 Perfect for making advanced users even more productive. Review changesets, stash, cherry-pick between branches and more.
 
 
+
+
+Sourcetree és màgic. L'ús del client en lloc de la línia d'ordres fa que sigui molt fàcil per a mi saltar entre branques.
+
