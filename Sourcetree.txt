@@ -1,0 +1,2 @@
+Sourcetree is magic. Using the client instead of the command line makes it really easy for me to jump between branches and stay on top of what is happening with the codebase
+
