@@ -1,2 +1,6 @@
 Sourcetree is magic. Using the client instead of the command line makes it really easy for me to jump between branches and stay on top of what is happening with the codebase
 
+
+
+Sourcetree és màgic. L'ús del client en lloc de la línia d'ordres fa que sigui molt fàcil per a mi saltar entre branques i mantenir-se al corrent del que està passant amb la base de codis
+
