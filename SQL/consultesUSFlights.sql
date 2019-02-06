@@ -44,7 +44,7 @@ es mostri el nom de la ciutat.*/
 select USAirports.City as 'Origen', colYear as 'Any', colMonth as 'Mes', 
 AVG(ArrTime) as 'Retard promig arribades' 
 from Flights 
-inner join USAirports 
+left join USAirports 
 on Flights.Origin=USAirports.IATA
 group by origin, colYear,colMonth 
 order by origin, colYear,colMonth;
