@@ -70,27 +70,27 @@ main {
 
 #block1 {
   background-color: #244F75;
-  margin: 8px 2px 5px 0;
+  margin: 8px 0px 5px 0;
   animation: strip1 1s; }
 
 #block2 {
   background-color: #60BFBF;
-  margin: 8px 2px;
+  margin: 8px 0px;
   animation: strip2 1s; }
 
 #block3 {
   background-color: #8C4B7E;
-  margin: 8px 2px;
+  margin: 8px 0px;
   animation: strip3 1s; } 
 
 #block4 {
   background-color: #F8BB44;
-  margin: 8px 2px;
+  margin: 8px 0px;
   animation: strip4 1s; }
 
 #block5 {
   background-color: #F24B4B;
-  margin: 8px 0px 5px 2px;
+  margin: 8px 0px 5px 0px;
   animation: strip5 1s; }
 
 @media (max-width: 480px) {
