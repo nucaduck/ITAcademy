@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>click demo jquery</title>
+  <style>
+  p {
+    color: red;
+    margin: 5px;
+    cursor: pointer;
+  }
+  p:hover {
+    background: yellow;
+  }
+  </style>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+  <script>$(document).ready(function(){
+  	//alert("hola mundo");
+
+
+  });
+</script>
+</head>
+<body>
+ 
+<p>First Paragraph</p>
+<p>Second Paragraph</p>
+<p>Yet one more Paragraph</p>
+ 
+<script>
+/*Eliminar el paragrafo al hacer click: */
+$(function(){
+
+	$("p").click(function(){
+		//$(this).remove(); //elimina sólo la "p" clickada
+		//$("p").remove(); //elimina todas
+		});
+
+
+});
+
+$(function(){
+
+	$(".boton").click(function(){
+		var str = $(this).text();
+		$("#p_result").html(str);
+		});
+	
+	
+});
+</script>
+ 
+</body>
+</html>

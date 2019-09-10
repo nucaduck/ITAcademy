@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="Music thec, Midi Controler, Controler, HLX, Line6, Music software">
+    <meta name="description" content="Music technology software and last news about digital technology, HLX MIDI contoroler. ">
+    <meta author="Xavi Gargallo" content="Tech news">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush|Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Boogaloo|Wendy+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<title>Validate Form</title>
+</head>
+
+<!-- Add bootstrap  to the whole content  -->
+<body class="container">
+
+  <header  >  
+  </header>
+
+
+
+    <!-- Modal class to add login -->
+<div id="myModal" class=" modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <!-- Modal content-->
+    <div class="modal-content text-dark ">
+        <div class="modal-header">
+          <h4 class="modal-title">Login</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body was-validated" >
+          <!-- FORM to login -->
+          <form action="/JSON FILE to be added" class="needs-validation" autocomplete = "on">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email1" maxlength="30"  required>
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" autocomplete = "on" class="form-control" id="pwdLogin" minlength="3" maxlength="12" required>
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">Recorda'm</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap modal2 form to Register user -->
+<div id="registerModal" class=" modal fade" role="dialog">
+
+      <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content text-dark ">
+          <div class="modal-header">
+            <h4 class="modal-title">Regitre</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+            <div class="modal-body " >
+          <!-- FORM REGISTER -->
+      <div class="row">  <!-- ROW bootstrap -->
+        <div class="col-sm-6">
+          <form action="#" name="myForm"   class="RegisterValidation" autocomplete = "on">
+            <div class="form-group">
+              <label for="fname">Nom:</label>
+                <input type="text"  class="form-control"  id="fname">
+                <div id="er-fname" class="not-hide"> </div>
+            </div>
+            <div class="form-group">
+              <label for="surname">Cognom:</label>
+              <input type="text" class="form-control"   id="surname"  >
+              <div id="er-surname" class="not-hide"> </div>
+            </div>
+            <div class="form-group">
+              <label for="address">Direcció:</label>
+              <input type="text" class="form-control"  id="address"  >
+              <div id="er-address"> </div>
+            </div>
+            <div class="form-group">
+              <label for="city">Ciutat:</label>
+              <select  value="select city" class="form-control" id="selection">
+                  <option value="select city">Selecciona ciutat</option>
+                  <option value="Barcelona">Barcelona</option>
+                  <option value="Tarragona">Tarragona</option>
+                  <option value="Lérida">Lleida</option>
+                  <option value="Girona">Girona</option>
+              </select>
+              <div id="er-city" class="not-hide"> </div>
+             </div>
+             <!-- Provincias select list  -->
+            <div class="form-group">
+              <label for="country">Pais:</label>
+              <input type="text" class="form-control"  id="country">
+            </div>
+        </div> <!-- end first col bootstrap  -->
+        <div class="col-sm-6">
+            <div class="form-group">
+              <label for="postalCode">Codi postal:</label>
+              <input type="text" class="form-control"  id="postalCode">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="text" class="form-control" id="email2">
+              <div id="er-email" class="not-hide"> </div>
+            </div>
+            <div class="form-group">
+              <label for="pwd1">Password:</label>
+              <input type="password" class="form-control" id="pwd1" autocomplete = "on" >
+              <div id="er-pwd1" class="not-hide"> </div>
+
+            </div>
+            <div class="form-group">
+              <label for="pwd2">Repetir password:</label>
+              <input type="Password" class="form-control" id="pwd2" >
+              <div id="er-pwd2" class="not-hide"> </div>
+
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">Recorda'm</label>
+            </div>
+          <div class"">
+            <button type="submit" onclick="validateForm()" class="btn btn-primary" id="subButton" >Enviar</button>
+          </form>
+        </div>
+      </div><!--end div col -->
+    </div><!--end div row -->
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<main class=" " ><!-- Main content here -->
+   
+
+   
+
+    </section>
+
+
+
+  </main>
+
+</body>
+<script src="js/validateForm.js"></script>
+
+</html>
